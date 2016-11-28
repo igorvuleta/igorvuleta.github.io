@@ -1,0 +1,1 @@
+var isChrome=/Chrome/.test(navigator.userAgent)&&/Google Inc/.test(navigator.vendor);if(!isChrome){var si_doc=document._currentScript.ownerDocument,$ssheet=si_doc.querySelector("#SocialIconsetStyles"),$head=document.querySelector("head");$head.appendChild($ssheet)}

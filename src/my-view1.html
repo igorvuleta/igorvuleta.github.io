@@ -1,0 +1,113 @@
+<html><head><link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/iron-icons/av-icons.html">
+<link rel="import" href="../bower_components/iron-iconset-svg/iron-iconset-svg.html">
+<link rel="import" href="../bower_components/social-iconset/social-iconset.html">  
+<link rel="import" href="shared-styles.html">
+
+</head><body><dom-module id="my-view1">
+  <template>
+   
+    <style include="shared-styles">
+      :host {
+          display: block;
+          background-image: url(/images/logo.png);
+          background-repeat: no-repeat;
+          background-position: right;
+          background-size: 50%;
+          padding: 10px;
+      }
+     
+      
+        @media only screen and (max-width: 2000px){
+          :host {
+            background-size:30%;
+            background-position:right top;
+            }
+      }
+      h1 {
+        padding-top:5px;
+      }
+    
+      .underline {
+        border-bottom: 1px solid #fc8888;
+      }
+    iron-icon[icon="av:fiber-new"] {
+      width: 40px;
+      height: 40px;
+     
+
+    }
+     iron-icon[icon="av:fiber-new"]:hover {
+      width: 44px;
+      height: 44px;
+      color:#fc8888;
+     
+
+    }
+    .announce {
+      padding-top:1.1em;
+    }
+    .description {
+      
+      text-align: left;
+      padding-top:1em;
+      padding-right:1em;
+    }
+    .intro {
+      padding: 1.1em;
+    }
+    .main {
+      padding: 1.1em;
+      text-align: center;
+    }
+    .main-description {
+      text-align: center;
+      padding: 1.1em;
+    }
+    iron-icon[icon="icons:arrow-downward"]{
+      height: 40px;
+      width: 40px;
+    }
+     iron-icon[icon="social-iconset:facebook"]{
+      color:#fff;
+    }
+ 
+ 
+   
+    </style>
+    
+
+ 
+    
+   
+   <section class="intro">
+     <div><iron-icon icon="av:fiber-new"></iron-icon></div>
+     <div>
+      <h1><span class="underline">Almost Digital</span></h1>
+      <p class="announce">Welcome to our Almost Digital Homepage!</p>
+      <p class="description">Here you will find all infos about our games, work, how to, and mostly important about us!</p>
+     </div>
+   </section>
+     <section>
+     
+     <div class="main">
+      <h1><span class="underline">What will you find here?</span></h1>
+      <p class="announce">Lets check it out!</p>
+      <iron-icon icon="icons:arrow-downward"></iron-icon>
+      <p class="main_description">On our web page you will all about us, our games. And more important how to play the games we make as also we will announce new features and new games right here!</p>
+      <p class="main_description">You can cheer for us clicking on the social media icons below!</p>
+     </div>
+   </section>
+   <footer>
+     
+      <div class="flex-item"><a href="https://www.facebook.com/AlmostDigital/?fref=ts" target="_blank"><iron-icon icon="social-iconset:facebook"></iron-icon></a></div>
+     <div class="flex-item"><a href="https://www.instagram.com/almostdigital_studio/?hl=en" target="_blank"><iron-icon icon="social-iconset:instagram"></iron-icon></a></div>
+     <div class="flex-item"><a href="https://play.google.com/store/apps/details?id=com.almostdigital.gravitas" target="_blank"><iron-icon icon="icons:android"></iron-icon></a></div>
+     
+   </footer>
+   
+  </template>
+ 
+  <script>Polymer({is:"my-view1"});</script>
+</dom-module>
+</body></html>

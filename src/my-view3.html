@@ -1,0 +1,110 @@
+<html><head><link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/social-iconset/social-iconset.html"> 
+<link rel="import" href="shared-styles.html">
+
+</head><body><dom-module id="my-view3">
+  <template>
+    <style include="shared-styles">
+      :host {
+        display: block;
+        padding: 10px;
+         background-image: url(/images/grav_back1.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size:100% 50%;
+      
+        
+        
+        
+        
+      }
+      .newton {
+        width:100%;
+        padding-left:2em;
+        font-size:1.1em;
+       
+        
+      }
+      h3 {
+        font-size:2.2em;
+        text-align:center;
+        padding-left:5em;
+        color:#edeaea;
+        margin:0;
+
+      }
+     @media only screen and (max-width: 768px){
+          :host {
+            background-size:180%;
+            background-repeat:no-repeat;
+            background-position:top;
+            }
+             .newton {
+             padding:0;
+            }
+            img {
+              width:75px;
+              height:75px;
+            }
+            
+      .about {
+        text-align:center;
+      
+      }
+      
+           
+            }
+                 
+         
+      
+     
+      .about {
+        text-align:center;
+        margin-top:1em;
+        padding:1em;
+      }
+      
+    
+    </style>
+
+    <div>
+        <div class="newton">
+        <img src="/images/newton.png" alt="hero" width="100" height="100">
+        <h3>Gravitas</h3>
+    </div>
+    </div>
+    <section class="about">
+      <h1>About the game</h1>
+      <p>Gravitas is a gravitation game that allows you to change the pull for Newton - the hero of Gravitas and his friends.</p>
+      <p>Aid yourself with apples to make it even further, choose from a number of skins (including over 50 flags) and represent yourself on the global leaderboard the way you want. </p>
+      <p>Try and position yourself in the top 10 players in the world and be the best.</p>
+
+    </section>
+   
+     
+    
+
+
+    
+
+
+        
+        
+       
+
+      
+
+     <footer>
+     
+   
+      <div class="flex-item"><a href="https://www.facebook.com/AlmostDigital/?fref=ts" target="_blank"><iron-icon icon="social-iconset:facebook"></iron-icon></a></div>
+     <div class="flex-item"><a href="https://www.instagram.com/almostdigital_studio/?hl=en" target="_blank"><iron-icon icon="social-iconset:instagram"></iron-icon></a></div>
+     <div class="flex-item"><a href="https://play.google.com/store/apps/details?id=com.almostdigital.gravitas" target="_blank"><iron-icon icon="icons:android"></iron-icon></a></div>
+     
+     
+   </footer>
+  </template>
+
+  <script>Polymer({is:"my-view3"});</script>
+</dom-module>
+</body></html>

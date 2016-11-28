@@ -1,0 +1,62 @@
+<html><head><link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/social-iconset/social-iconset.html"> 
+<link rel="import" href="shared-styles.html">
+
+</head><body><dom-module id="my-view2">
+  <template>
+    <style include="shared-styles">
+      :host {
+        display: block;
+
+        padding: 10px;
+
+      }
+      .about, .a_main, .b_main{
+        text-align: center;
+        width: 100%;
+      }
+      .squad{
+        text-align:center;
+        width:100%;
+        height: auto;
+        margin-bottom:25px;
+
+      }
+      h3{
+        padding-bottom:5px;
+      }
+      
+    </style>
+
+    <div class="about">
+      <h1>About us</h1>
+      <p>Some basic informations about who we are, what we do, and what is our mission!</p>
+    </div>
+    <div class="a_main">
+      
+      <p>We are a small group of gamers from Bosnia and Herzegovina that decided to create games ourselves.</p>
+      <p> Starting in 2016, we gathered our equipment and skills to try and create  games.</p>
+      <p> With our first game „Gravitas“ we did the first step and that is only the beginning of our journey in this world. We consist of 5 people at the moment, but we hope to expand.</p>
+    </div>
+    <div class="b_main">
+      <h1>Currently on our rooster, we have almost digital...</h1>
+      <div class="squad"><img src="/images/artist.png" width="100" height="100"></div>
+      <div class="squad"><img src="/images/animator.png" width="100" height="100"></div>
+      <div class="squad"><img src="/images/programmers.png" width="100" height="100"></div>
+      <div class="squad"><img src="/images/musican.png" width="100" height="100"></div>
+      <h3>More awesome digital characters are coming soon!</h3>
+
+    </div>
+     <footer>
+     
+      <div class="flex-item"><a href="https://www.facebook.com/AlmostDigital/?fref=ts" target="_blank"><iron-icon icon="social-iconset:facebook"></iron-icon></a></div>
+     <div class="flex-item"><a href="https://www.instagram.com/almostdigital_studio/?hl=en" target="_blank"><iron-icon icon="social-iconset:instagram"></iron-icon></a></div>
+     <div class="flex-item"><a href="https://play.google.com/store/apps/details?id=com.almostdigital.gravitas" target="_blank"><iron-icon icon="icons:android"></iron-icon></a></div>
+     
+     
+   </footer>
+  </template>
+
+  <script>Polymer({is:"my-view2"});</script>
+</dom-module>
+</body></html>
